@@ -1,0 +1,146 @@
+body {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    backface-visibility: hidden;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px;
+    color: white;
+}
+
+#guess-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letter-box {
+    background-color: white;
+    border: 3px solid black;
+    margin: 1.5px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.filled-box {
+    border: 2px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.letter-row {
+    display: flex;
+}
+
+.back-bttn {
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.newgame-bttn {
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 70%;
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#keyboard-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#keyboard-cont div {
+    display: flex;
+}
+
+.second-row {
+    margin: 0.5rem 0;
+}
+
+.keyboard-button {
+    background-color: white;
+    border-color: white;
+    border-radius: 20%;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.7rem;
+    margin: 0 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.center_align {
+    text-align: center;
+}
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:90vh;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#play-button {
+    background-image: url('./images/play.jpg'); 
+    height: 100px;
+    width: 200px;
+}
+
+#back-button {
+    background-image: url('./images/back.jpg');
+    height: 50px;
+    width: 100px;
+}
+
+#new-game {
+    height: 40px;
+    width: 150px;
+    text-align:center;
+    font-size: 27px;
+}
+
+.button-class {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 22px;
+    background-color:sienna;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0);
+    user-select: none;
+    transition: background 0.05s linear;
+    transition: all .05s linear;
+}
+.button-class:active {
+    transform: translateY(3px);
+}
+.button-class:hover {
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    border-bottom: 2px solid #000000;
+}
