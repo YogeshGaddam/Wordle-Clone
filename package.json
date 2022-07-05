@@ -4,9 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "heroku-postbuild": "npm run build",
-    "build": "nodemon app.js" 
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
