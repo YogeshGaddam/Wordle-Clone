@@ -258,7 +258,7 @@ document.getElementById('back-button').onclick = () => {
     var select_audio = new Audio('./audio/select.mp3')
     select_audio.load()
     select_audio.play()
-    setTimeout(() => { window.location.href = 'http://localhost:3000/home' }, 500)
+    setTimeout(() => { window.location.href = 'https://wordle-game-wx89.onrender.com/home' }, 500)
 }
 
 initializeGrid();
