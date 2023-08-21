@@ -2,7 +2,7 @@
 
 A clone of the famous daily puzzle owned by The New York Times using Trie Data structure for effective searching of a word in the glossary.
 
-[Link to preview](https://wordle-puzzle.herokuapp.com/home)
+Link to preview: [Link1](https://wordle-clone.cyclic.cloud/game) [Link2](https://wordle-game-wx89.onrender.com/game)
 
 • To install the app, clone the repo into a local directory
 
