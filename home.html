@@ -22,7 +22,9 @@
         document.getElementById('play-button').onclick = () => {
             select_audio.currentTime = 0
             select_audio.play()
-            setTimeout(() => { window.location.href = 'https://wordle-game-wx89.onrender.com/game' }, 500)
+            const gamePath = '/game';
+            const gameUrl = new URL(gamePath, window.location.origin);
+            setTimeout(() => { window.location.href = gameUrl }, 500)
         }
     </script>
 </body>
